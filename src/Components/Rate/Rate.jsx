@@ -27,13 +27,7 @@ const Rate = () => {
       </div>
       <div className={styles.rate}>
         <div className={styles.stars}>
-          <IMgGroup
-            data={data}
-            rate={rate}
-            width={"20px"}
-            height={"20px"}
-            src={star}
-          />
+          <IMgGroup data={data} rate={rate} width={"20px"} height={"20px"} />
         </div>
         <div className={styles.CustomerRate}>
           <span className={styles.rateSpan}>{rate}</span>

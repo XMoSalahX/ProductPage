@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./ImgGroup.module.css";
 
 const IMgGroup = ({ data, width, height }) => {
+  console.log(data);
   return data.map((data, index) => {
     return (
       <div
@@ -10,6 +11,7 @@ const IMgGroup = ({ data, width, height }) => {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
+          maxWidth: "30%",
         }}
       >
         <img
@@ -17,8 +19,8 @@ const IMgGroup = ({ data, width, height }) => {
           src={data}
           alt="SubPoster"
           style={{
-            maxWidth: width,
-            height: height ? height : "106px",
+            maxWidth: "100%",
+            maxHeight: height ? height : "90%",
             display: "flex",
             alignItems: "center",
           }}
