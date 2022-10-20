@@ -1,0 +1,33 @@
+.SerialAndRateContainer {
+  display: flex;
+  gap: 52px;
+  flex-wrap: wrap;
+}
+
+.Serial {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--color-grey-light);
+}
+
+.rate {
+  display: flex;
+  gap: 28px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.stars {
+  display: flex;
+  gap: 8px;
+}
+
+.rateSpan {
+  color: var(--color-main);
+}
+
+.rateNumber {
+  color: var(--color-grey-light);
+}

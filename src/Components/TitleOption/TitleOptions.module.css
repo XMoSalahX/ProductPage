@@ -1,0 +1,6 @@
+.optionTitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--color-main-title);
+}

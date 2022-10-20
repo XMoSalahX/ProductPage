@@ -1,0 +1,19 @@
+:root {
+  --font-family: Poppins;
+  --color-bg: #ffffff;
+  --color-main: #000000;
+  --color-main-title: #111111;
+  --color-grey-dark: #828282;
+  --color-grey-light: #999cad;
+  --color-grey-white-light: #ecf1f4;
+  --color-grey-path: #828282;
+  --color-Right: #38b349;
+  --color-Wrong: #f95659;
+  --color-contact-us: #0f3043;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  background-color: var(--color-bg);
+}

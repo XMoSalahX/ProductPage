@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sizesContainer {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.storageItem {
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: var(--color-main-title);
+  border-radius: 10px;
+  text-align: center;
+  letter-spacing: -0.15px;
+  cursor: pointer;
+}
+
+.storageItem:hover {
+  background-color: var(--color-grey-white-light);
+}
+
+.storageItem span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.addBackground {
+  background-color: var(--color-grey-white-light);
+}

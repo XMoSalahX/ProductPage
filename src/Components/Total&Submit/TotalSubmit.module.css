@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.head {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.cost {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--color-Right);
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.submit {
+  padding: 10px 20px;
+  background-color: var(--color-Right);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 26px;
+  border-radius: 10px;
+  color: var(--color-bg);
+  cursor: pointer;
+}
+
+.callUs {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: var(--color-contact-us);
+  color: var(--color-bg);
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--color-grey-path);
+}

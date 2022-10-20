@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.shippingHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.shippingHeader span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: var(--color-Wrong);
+}
+
+.shippingPlanText {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.shippingItems {
+  padding: 10px 20px;
+  display: flex;
+  gap: 10px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.shippingItems:hover {
+  background: var(--color-grey-white-light);
+}
+
+.desc {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--color-grey-path);
+}
+
+.addBackgroud {
+  background: var(--color-grey-white-light);
+}

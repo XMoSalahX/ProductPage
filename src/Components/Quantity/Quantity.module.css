@@ -1,0 +1,93 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.QuantityHeader {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.QuantityHeader span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: var(--color-Wrong);
+}
+
+.counters {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+.counter {
+  padding: 12px 9px;
+  display: flex;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.counter div {
+  width: 50.5px;
+  height: 34.25px;
+  background-color: var(--color-grey-white-light);
+}
+
+.decrement {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  position: relative;
+}
+
+.decrement:before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 3px;
+  background-color: black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+.increment {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: relative;
+}
+
+.increment:before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 3px;
+  background-color: black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+.increment:after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 3px;
+  background-color: black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(90deg);
+  border-radius: 10px;
+}
+
+.counterText {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+}

@@ -1,0 +1,29 @@
+.colorItemContainer {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.itemColor {
+  padding: 10px 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.itemColor:hover {
+  background-color: var(--color-grey-white-light);
+}
+
+.itemColor span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: var(--color-main-title);
+}
+
+.addBackgroud {
+  background-color: var(--color-grey-white-light);
+}

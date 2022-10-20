@@ -1,0 +1,62 @@
+.container {
+  background-color: #fff;
+  position: fixed;
+  flex-direction: column;
+  right: 0;
+  z-index: 1;
+  display: flex;
+  padding: 0px;
+  box-shadow: -4px 2px 13px rgb(0 0 0 / 5%);
+  animation-name: mobiteshow;
+  animation-duration: 0.8s;
+  padding-bottom: 30px;
+  width: 100%;
+  max-width: 450px;
+}
+
+@keyframes mobiteshow {
+  0% {
+    right: -100%;
+  }
+  100% {
+    right: 0;
+  }
+}
+
+.navHead {
+  height: 115px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 1px 1px rgb(0 0 0 / 5%);
+  justify-content: space-between;
+}
+
+.close {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.close:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 3px;
+  height: 20px;
+  background-color: var(--color-main);
+  transform: rotate(45deg);
+}
+
+.close:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 3px;
+  height: 20px;
+  background-color: red;
+  transform: rotate(-45deg);
+  border-radius: 5px;
+  background-color: var(--color-main);
+}

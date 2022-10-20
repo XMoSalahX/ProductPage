@@ -1,0 +1,13 @@
+.productContainer {
+  padding: 20px 64px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1000px) {
+  .productContainer {
+    flex-direction: column;
+    width: -webkit-fill-available;
+    gap: 40px;
+  }
+}
